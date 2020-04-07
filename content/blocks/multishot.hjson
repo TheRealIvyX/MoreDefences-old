@@ -1,0 +1,25 @@
+type: Turret
+name: Multishot
+description: Fires 10 weak bullets that spread out.
+health: 200
+size: 1
+reload: 4
+range: 100
+ammoUseEffect: shellEjectSmall
+inaccuracy: 3
+rotatespeed: 3.5
+spread: 10
+shots: 10
+ammo: {
+  lead: {
+    speed: 3
+    damage: 2
+    ammoMultiplier: 0.2
+  }
+}
+requirements: [
+  copper/20
+  lead/80
+]
+category: turret
+research: duo
