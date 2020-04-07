@@ -30,6 +30,7 @@ ammo: {
     ammoMultiplier: 1
     homingPower: 1
   }
+}
 requirements: [
   copper/20
   lead/80
