@@ -13,12 +13,12 @@ shots: 10
 ammo: {
   lead: {
     speed: 3
-    damage: 2
+    damage: 3
     ammoMultiplier: 1
   }
   coal: {
     speed: 3
-    damage: 1
+    damage: 2
     ammoMultiplier: 1
     incendAmount: 1
     incendSpread: 16
@@ -26,7 +26,7 @@ ammo: {
   }
   silicon: {
     speed: 3
-    damage: 2
+    damage: 3
     ammoMultiplier: 1
     homingPower: 1
   }
