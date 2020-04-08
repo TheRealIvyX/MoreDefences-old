@@ -1,0 +1,47 @@
+type: ItemTurret
+name: Shrapnel
+description: Fires strong bullets at a slow rate that split into multiple weak bullets.
+health: 800
+size: 2
+reload: 180
+range: 125
+ammoUseEffect: shellEjectSmall
+inaccuracy: 2
+rotatespeed: 2
+shots: 1
+ammoPerShot: 10
+ammo: {
+  lead: {
+    speed: 2
+    damage: 150
+    ammoMultiplier: 1
+    fragBullets: 15
+    lifetime: 120
+    hitSize: 8
+    drawSize: 80
+    fragBullet: {
+      speed: 4
+      damage: 20
+    }
+  }
+  metaglass: {
+    speed: 2
+    damage: 120
+    ammoMultiplier: 1
+    fragBullets: 30
+    lifetime: 120
+    hitSize: 8
+    drawSize: 80
+    fragBullet: {
+      speed: 4
+      damage: 15
+    }
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  titanium/75
+]
+category: turret
+research: multishot
