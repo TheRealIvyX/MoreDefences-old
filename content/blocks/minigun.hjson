@@ -13,18 +13,18 @@ ammoPerShot: 1
 ammo: {
   scrap: {
     speed: 3
-    damage: 5
+    damage: 10
     ammoMultiplier: 2
     reloadMultiplier: 2
   }
   copper: {
     speed: 3
-    damage: 10
+    damage: 20
     ammoMultiplier: 2
   }
   coal: {
     speed: 3
-    damage: 8
+    damage: 16
     ammoMultiplier: 2
     incendAmount: 1
     incendSpread: 32
@@ -32,15 +32,15 @@ ammo: {
   }
   silicon: {
     speed: 3
-    damage: 10
+    damage: 20
     ammoMultiplier: 2
     homingPower: 1
   }
   titanium: {
     speed: 3
-    damage: 20
+    damage: 40
     ammoMultiplier: 2
-    reloadMultiplier: 0.5
+    reloadMultiplier: 0.6
   }
 }
 requirements: [
