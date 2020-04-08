@@ -22,11 +22,13 @@ ammo: {
     speed: 7
     damage: 3
     ammoMultiplier: 3
+    drawSize: 4
   }
   coal: {
     speed: 7
     damage: 2
     ammoMultiplier: 3
+    drawSize: 4
     incendAmount: 1
     incendSpread: 16
     incendChance: 6
@@ -35,13 +37,15 @@ ammo: {
     speed: 7
     damage: 3
     ammoMultiplier: 3
+    drawSize: 4
     homingPower: 6
   }
   titanium: {
     speed: 7
     damage: 6
     ammoMultiplier: 3
-    reloadMultiplier: 2
+    drawSize: 4
+    reloadMultiplier: 0.5
   }
 }
 requirements: [
