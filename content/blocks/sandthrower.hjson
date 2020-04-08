@@ -4,7 +4,7 @@ description: Fires 5 weak bullets that spread out.
 health: 200
 size: 1
 reload: 90
-range: 100
+range: 80
 ammoUseEffect: shellEjectSmall
 inaccuracy: 3
 rotatespeed: 5
