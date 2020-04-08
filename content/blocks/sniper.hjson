@@ -10,13 +10,13 @@ inaccuracy: 3
 rotatespeed: 15
 shots: 1
 targetGround: false
-ammoPerShot: 10
+ammoPerShot: 2
 ammo: {
   scrap: {
     speed: 15
     damage: 250
     ammoMultiplier: 1
-    reloadMultiplier: 0.5
+    reloadMultiplier: 2
   }
   copper: {
     speed: 15
@@ -27,7 +27,7 @@ ammo: {
     speed: 15
     damage: 1000
     ammoMultiplier: 1
-    reloadMultiplier: 2
+    reloadMultiplier: 0.5
   }
 }
 requirements: [
