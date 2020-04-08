@@ -10,23 +10,23 @@ inaccuracy: 3
 rotatespeed: 15
 shots: 1
 targetGround: false
-ammoPerShot: 0.1
+ammoPerShot: 1
 ammo: {
   scrap: {
     speed: 7
     damage: 1
-    ammoMultiplier: 3
+    ammoMultiplier: 9
     drawSize: 4
   }
   lead: {
     speed: 7
     damage: 3
-    ammoMultiplier: 1
+    ammoMultiplier: 3
   }
   coal: {
     speed: 7
     damage: 2
-    ammoMultiplier: 1
+    ammoMultiplier: 3
     incendAmount: 1
     incendSpread: 16
     incendChance: 6
@@ -34,13 +34,14 @@ ammo: {
   silicon: {
     speed: 7
     damage: 3
-    ammoMultiplier: 1
+    ammoMultiplier: 3
     homingPower: 6
   }
   titanium: {
     speed: 7
     damage: 6
-    ammoMultiplier: 0.5
+    ammoMultiplier: 3
+    reloadMultiplier: 2
   }
 }
 requirements: [
