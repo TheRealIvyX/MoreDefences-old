@@ -24,7 +24,7 @@ ammo: {
   }
 }
 requirements: [
-  copper/100
+  copper/30
 ]
 category: turret
 research: duo
