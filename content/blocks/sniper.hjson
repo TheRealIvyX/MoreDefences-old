@@ -9,7 +9,6 @@ ammoUseEffect: shellEjectSmall
 inaccuracy: 0
 rotatespeed: 3
 shots: 1
-targetGround: false
 ammoPerShot: 1
 ammo: {
   scrap: {
