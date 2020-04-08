@@ -1,0 +1,50 @@
+type: ItemTurret
+name: Minigun
+description: Fires weak bullets at a fast rate.
+health: 200
+size: 1
+reload: 4
+range: 100
+ammoUseEffect: shellEjectSmall
+inaccuracy: 2
+shots: 1
+targetAir: false
+ammoPerShot: 1
+ammo: {
+  scrap: {
+    speed: 3
+    damage: 5
+    ammoMultiplier: 2
+    reloadMultiplier: 2
+  }
+  copper: {
+    speed: 3
+    damage: 10
+    ammoMultiplier: 2
+  }
+  coal: {
+    speed: 3
+    damage: 8
+    ammoMultiplier: 2
+    incendAmount: 1
+    incendSpread: 32
+    incendChance: 3
+  }
+  silicon: {
+    speed: 3
+    damage: 10
+    ammoMultiplier: 2
+    homingPower: 1
+  }
+  titanium: {
+    speed: 3
+    damage: 20
+    ammoMultiplier: 2
+    reloadMultiplier: 0.5
+  }
+}
+requirements: [
+  phase-fabric/100
+]
+category: turret
+research: duo
