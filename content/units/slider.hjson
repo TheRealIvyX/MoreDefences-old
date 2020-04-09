@@ -3,7 +3,7 @@ name: Slider
 description: A heavy bomber. 
 speed: 0.1
 flying: true
-health: 3000
+health: 2500
 engineOffset: 0
 range: 160
 weapon: {
@@ -14,16 +14,15 @@ weapon: {
   alternate: true
   bullet: {
     speed: 2
-    damage: 300
+    damage: 100
     ammoMultiplier: 1
     fragBullets: 15
     lifetime: 120
     hitSize: 8
     drawSize: 80
-    collidesAir: false
     fragBullet: {
       speed: 4
-      damage: 40
+      damage: 10
     }
   }
 }
