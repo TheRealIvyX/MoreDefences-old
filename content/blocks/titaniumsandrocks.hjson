@@ -1,3 +1,4 @@
 type: StaticWall
 name: Titanium Sand Rocks
 variants: 2
+color: #cca4e1
