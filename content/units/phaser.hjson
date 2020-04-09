@@ -14,7 +14,7 @@ weapon: {
   alternate: true
   bullet: {
     speed: 3
-    damage: 15
+    damage: 20
     ammoMultiplier: 2
   }
 }
