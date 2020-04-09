@@ -10,7 +10,8 @@ weapon: {
   reload: 60
   alternate: true
   shots: 3
-  spread: 15
+  spacing: 15
+  inaccuracy: 3
   bullet: {
     speed: 2
     damage: 300
