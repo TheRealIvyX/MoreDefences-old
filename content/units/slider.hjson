@@ -1,0 +1,27 @@
+type: flyingUnit
+name: Slider
+health: 5000
+speed: 0.1
+maxVelocity: 2
+flying: true
+weapon: {
+  name: nuke-launcher
+  length: 1.5
+  reload: 60
+  alternate: true
+  shots: 3
+  spread: 15
+  bullet: {
+    speed: 2
+    damage: 300
+    ammoMultiplier: 1
+    fragBullets: 15
+    lifetime: 120
+    hitSize: 8
+    drawSize: 80
+    fragBullet: {
+      speed: 4
+      damage: 40
+      pierce: true
+    }
+}
