@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Purifier
+description: Purifies Titanium sand into Titanium and Sand.
+liquidCapacity: 50
+size: 2
+hasItems: true
+craftTime: 120
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      titaniumsand/1
+    ]
+  }
+}
+requirements: [
+  titanium/30
+  silicon/30
+]
+category: crafting
+research: silicon-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: [
+  titanium/2
+  sand/1
+]
