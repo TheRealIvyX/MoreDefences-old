@@ -2,7 +2,7 @@ name: Large Vanadium Wall
 description: An insanely durable defensive block. Spans multiple tiles.
 type: Wall
 health: 6000
-size: 1
+size: 2
 requirements: [
   vanadium/24
 ]
