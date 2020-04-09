@@ -4,6 +4,7 @@ health: 5000
 speed: 0.1
 maxVelocity: 2
 flying: true
+engineOffset: 5.5
 weapon: {
   name: nuke-launcher
   length: 1.5
