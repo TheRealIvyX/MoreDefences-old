@@ -24,4 +24,5 @@ weapon: {
       damage: 40
       pierce: true
     }
+  }
 }
