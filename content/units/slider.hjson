@@ -1,15 +1,16 @@
 type: flyingUnit
 name: Slider
-description: will it work now
-speed: 0.3
+description: A heavy bomber designed for 
+speed: 0.1
 flying: true
-health: 5000
-engineOffset: 5.5
+health: 3000
+engineOffset: 0
 range: 160
 weapon: {
   name: nuke-launcher
-  length: 1.5
-  reload: 60
+  length: 2
+  width: 4
+  reload: 30
   alternate: true
   bullet: {
     speed: 2
