@@ -1,12 +1,13 @@
 type: GenericCrafter
-name: Purifier
-description: Purifies Titanium sand into Titanium and Sand.
+name: Titanium Seperator
+description: Seperates Titanium particles from Titanium sand, melts them together and freezes them into ingots.
 liquidCapacity: 50
 size: 2
+hasPower: true
 hasItems: true
 craftTime: 120
-updateEffect: smeltsmoke
 consumes: {
+  power: 0.7
   items: {
     items: [
       titaniumsand/1
@@ -21,7 +22,4 @@ category: crafting
 research: silicon-smelter
 idleSound: respawning
 idleSoundVolume: 0.5
-outputItem: [
-  titanium/2
-  sand/1
-]
+outputItem: titanium/2
