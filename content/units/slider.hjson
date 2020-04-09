@@ -14,7 +14,7 @@ weapon: {
   alternate: true
   bullet: {
     speed: 2
-    damage: 100
+    damage: 60
     ammoMultiplier: 1
     fragBullets: 15
     lifetime: 120
@@ -22,7 +22,7 @@ weapon: {
     drawSize: 80
     fragBullet: {
       speed: 4
-      damage: 10
+      damage: 6
     }
   }
 }
