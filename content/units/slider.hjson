@@ -1,6 +1,6 @@
 type: flyingUnit
 name: Slider
-description: A heavy bomber designed for 
+description: A heavy bomber. 
 speed: 0.1
 flying: true
 health: 3000
