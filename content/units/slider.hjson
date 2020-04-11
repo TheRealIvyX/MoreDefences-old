@@ -6,6 +6,7 @@ flying: true
 health: 2500
 engineOffset: 0
 range: 160
+mass: 100
 weapon: {
   name: nuke-launcher
   length: 2
