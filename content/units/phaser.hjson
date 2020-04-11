@@ -6,10 +6,11 @@ flying: true
 health: 15000
 engineOffset: 0
 range: 250
+mass: 100
 weapon: {
   name: phaser-turret
-  length: 2
-  width: 4
+  length: 0
+  width: 6
   reload: 2
   alternate: true
   bullet: {
