@@ -7,6 +7,7 @@ health: 2500
 engineOffset: 0
 range: 160
 mass: 100
+maxVelocity: 0.1
 weapon: {
   name: nuke-launcher
   length: 2
