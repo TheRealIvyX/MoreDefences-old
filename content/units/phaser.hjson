@@ -3,7 +3,7 @@ name: Phaser
 description: A heavy gunship. 
 speed: 0.05
 maxVelocity: 0.15
-baseRotateSpeed: 0.0125
+rotatespeed: 0.05
 flying: true
 health: 15000
 engineOffset: 0
