@@ -2,7 +2,7 @@ type: flyingUnit
 name: Phaser
 description: A heavy gunship. 
 speed: 0.05
-maxVelocity: 0.05
+maxVelocity: 0.15
 flying: true
 health: 15000
 engineOffset: 0
