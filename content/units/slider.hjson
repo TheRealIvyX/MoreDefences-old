@@ -8,7 +8,7 @@ engineOffset: 0
 range: 160
 mass: 100
 maxVelocity: 0.3
-shootCone: 90
+baseRotateSpeed: 0.05
 weapon: {
   name: nuke-launcher
   length: 2
