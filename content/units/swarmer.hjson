@@ -9,6 +9,7 @@ range: 160
 mass: 100
 maxVelocity: 0.7
 rotatespeed: 0.3
+engineSize: 10
 weapon: {
   name: swarming-gun
   length: 2
