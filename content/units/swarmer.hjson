@@ -3,7 +3,7 @@ name: Swarmer
 description: A weak swarming unit designed to distract enemy defences. 
 speed: 0.6
 flying: true
-health: 2500
+health: 60
 engineOffset: 0
 range: 160
 mass: 100
@@ -12,7 +12,7 @@ rotatespeed: 0.3
 weapon: {
   name: swarming-gun
   length: 2
-  width: 4
+  width: 2
   reload: 15
   alternate: true
   bullet: {
