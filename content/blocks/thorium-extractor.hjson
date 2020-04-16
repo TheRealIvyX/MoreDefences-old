@@ -4,12 +4,12 @@ description: Digs down deep into the ground and extracts Thorium.
 size: 3
 hasPower: true
 hasLiquids: true
-craftTime: 100
+craftTime: 400
 consumes: {
-  power: 13.6
+  power: 6
   liquid: {
     liquid: cryofluid
-    amount: 2
+    amount: 0.5
   }
 }
 requirements: [
