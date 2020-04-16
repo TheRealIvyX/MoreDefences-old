@@ -18,7 +18,7 @@ requirements: [
   silicon/40
   copper/45
 ]
-category: crafting
+category: production
 research: laser-drill
 idleSound: respawning
 idleSoundVolume: 0.5
