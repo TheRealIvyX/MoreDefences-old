@@ -3,7 +3,7 @@ name: Multishot
 description: An upgraded Sand Thrower. Fires 10 weak bullets that spread out.
 health: 200
 size: 1
-reload: 180
+reload: 120
 range: 100
 ammoUseEffect: shellEjectSmall
 inaccuracy: 3
