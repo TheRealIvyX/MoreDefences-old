@@ -14,7 +14,7 @@ consumes: {
   }
 }
 requirements: [
-  titanium/30
+  thorium/10
   silicon/30
 ]
 category: crafting
