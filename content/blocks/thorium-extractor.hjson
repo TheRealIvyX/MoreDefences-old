@@ -6,7 +6,7 @@ hasPower: true
 hasLiquids: true
 craftTime: 400
 consumes: {
-  power: 6
+  power: 3
   liquid: {
     liquid: cryofluid
     amount: 0.05
