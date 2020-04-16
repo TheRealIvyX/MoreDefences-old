@@ -3,7 +3,7 @@ name: Thorium Extractor
 description: Digs down deep into the ground and extracts Thorium.
 size: 3
 hasPower: true
-hasItems: true
+hasLiquids: true
 craftTime: 100
 consumes: {
   power: 13.6
