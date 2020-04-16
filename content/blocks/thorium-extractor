@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Thorium Extractor
+description: Digs down deep into the ground and extracts Thorium.
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 100
+consumes: {
+  power: 13.6
+  liquid: {
+    liquid: cryofluid
+    amount: 2
+  }
+}
+requirements: [
+  titanium/30
+  graphite/40
+  silicon/40
+  copper/45
+]
+category: crafting
+research: laser-drill
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: thorium/1
