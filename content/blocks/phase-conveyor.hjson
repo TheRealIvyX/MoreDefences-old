@@ -10,5 +10,4 @@ requirements: [
   graphite/1
   phase-fabric/1
 ]
-category: distribution
 research: titanium-conveyor
