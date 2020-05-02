@@ -19,7 +19,7 @@ requirements: [
   copper/45
 ]
 category: production
-research: laser-drill
+research: titanium-extractor
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: thorium/1
