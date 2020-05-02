@@ -44,7 +44,7 @@ ammo: {
   }
 }
 requirements: [
-  phase-fabric/100
+  phase-fabric/45
 ]
 category: turret
 research: duo
