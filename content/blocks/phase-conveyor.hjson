@@ -1,0 +1,14 @@
+name: Phase Conveyor
+description: Advanced item transport block. Moves items faster than Titanium Conveyors.
+type: Conveyor
+health: 65
+size: 1
+speed: 1
+requirements: [
+  copper/1
+  lead/1
+  graphite/1
+  phase-fabric/1
+]
+category: distribution
+research: titanium-conveyor
