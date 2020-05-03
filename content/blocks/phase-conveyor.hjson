@@ -1,11 +1,11 @@
 type: Conveyor
-name: Phase conveyor
-description: Advanced item transport block. Moves items faster than Titanium Conveyors.
+name: Electrum conveyor
+description: Example conveyor.
 requirements: [
-  copper/1
-  lead/1
-  titanium/1
-  phase-fabric/1
+  titanium/3
+  copper/3
+  lead/3
+  phase-fabric/3
 ]
 category: distribution
 speed: 0.12
