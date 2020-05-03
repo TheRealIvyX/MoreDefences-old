@@ -5,6 +5,7 @@ speed: 1
 requirements: [
   copper/1
   lead/1
+  titanium/1
   graphite/1
   phase-fabric/1
 ]
