@@ -6,14 +6,14 @@ size: 2
 reload: 3
 range: 100
 ammoUseEffect: shellEjectSmall
-inaccuracy: 3
+inaccuracy: 1
 rotatespeed: 15
 shots: 1
 targetGround: false
 ammoPerShot: 1
 ammo: {
   scrap: {
-    speed: 16
+    speed: 20
     damage: 6
     ammoMultiplier: 6
     drawSize: 4
