@@ -14,19 +14,19 @@ ammoPerShot: 1
 ammo: {
   scrap: {
     speed: 7
-    damage: 1
-    ammoMultiplier: 9
+    damage: 3
+    ammoMultiplier: 6
     drawSize: 4
   }
   lead: {
     speed: 7
-    damage: 3
+    damage: 6
     ammoMultiplier: 3
     drawSize: 4
   }
   coal: {
     speed: 7
-    damage: 2
+    damage: 4
     ammoMultiplier: 3
     drawSize: 4
     incendAmount: 1
@@ -35,14 +35,14 @@ ammo: {
   }
   silicon: {
     speed: 7
-    damage: 3
+    damage: 6
     ammoMultiplier: 3
     drawSize: 4
     homingPower: 6
   }
   titanium: {
     speed: 7
-    damage: 6
+    damage: 12
     ammoMultiplier: 3
     drawSize: 4
     reloadMultiplier: 0.6
@@ -52,4 +52,4 @@ requirements: [
   titanium/40
 ]
 category: turret
-research: duo
+research: scatter
