@@ -49,7 +49,7 @@ ammo: {
   }
 }
 requirements: [
-  titanium/40
+  titanium/35
 ]
 category: turret
 research: scatter
