@@ -7,7 +7,7 @@ reload: 3
 range: 170
 ammoUseEffect: shellEjectSmall
 inaccuracy: 1
-rotatespeed: 15
+rotatespeed: 10
 shots: 1
 targetGround: false
 ammoPerShot: 1
