@@ -4,8 +4,8 @@ description: A weak swarming unit designed to distract enemy defences.
 speed: 0.5
 flying: true
 health: 60
-engineOffset: 2
-range: 160
+engineOffset: 3
+range: 100
 mass: 100
 maxVelocity: 0.7
 rotatespeed: 0.3
@@ -13,10 +13,10 @@ weapon: {
   name: swarming-gun
   length: 2
   width: 2
-  reload: 15
+  reload: 20
   alternate: true
   bullet: {
-    speed: 3
+    speed: 5
     damage: 5
     ammoMultiplier: 1
     lifetime: 60
