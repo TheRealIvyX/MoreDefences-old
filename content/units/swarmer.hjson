@@ -1,14 +1,14 @@
 type: flyingUnit
 name: Swarmer
 description: A weak swarming unit designed to distract enemy defences. 
-speed: 0.5
+speed: 1
 flying: true
 health: 30
 engineOffset: 6
-range: 100
-mass: 100
+range: 60
+mass: 1
 maxVelocity: 1.7
-rotatespeed: 0.3
+rotatespeed: 0.8
 weapon: {
   name: swarming-gun
   length: 2
