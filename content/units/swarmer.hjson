@@ -3,7 +3,7 @@ name: Swarmer
 description: A weak swarming unit designed to distract enemy defences. 
 speed: 1
 flying: true
-health: 30
+health: 60
 engineOffset: 6
 range: 60
 mass: 1
