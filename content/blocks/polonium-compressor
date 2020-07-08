@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Virite Compressor
+description: Compresses Thorium, Phase fabric and slag to create Polonium.
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 930
+consumes: {
+  power: 1
+  items: {
+    items: [
+      thorium/3
+      phase-fabric/2
+    ]
+  }
+}
+requirements: [
+  thorium/20
+  silicon/25
+]
+category: crafting
+research: vanadium-extractor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: virite/1
