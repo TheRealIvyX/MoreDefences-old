@@ -7,12 +7,16 @@ hasItems: true
 hasLiquids: true
 craftTime: 930
 consumes: {
-  power: 1
+  power: 4
   items: {
     items: [
       thorium/3
       phase-fabric/2
     ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 0.05
   }
 }
 requirements: [
