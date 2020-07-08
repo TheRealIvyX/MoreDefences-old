@@ -13,7 +13,7 @@ consumes: {
   }
 }
 requirements: [
-  surge/25
+  surge-alloy/25
   thorium/75
   titanium/90
   graphite/120
@@ -21,7 +21,7 @@ requirements: [
   copper/135
 ]
 category: production
-research: titanium-extractor
+research: thorium-extractor
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: vanadium/1
