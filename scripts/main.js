@@ -1,1 +1,0 @@
-require('vanadium-extractor.js')
