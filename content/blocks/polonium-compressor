@@ -10,7 +10,7 @@ consumes: {
   power: 4
   items: {
     items: [
-      thorium/3
+      thorium/5
       phase-fabric/2
     ]
   }
