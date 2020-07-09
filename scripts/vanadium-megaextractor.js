@@ -16,7 +16,7 @@ const vanadium = extendContent(GenericCrafter, "vanadium-megaextractor", {
     entity = tile.ent();
     
     Draw.rect(this.region, tile.drawx(), tile.drawy());
-    Draw.rect(this.rotateRegion, tile.drawx(), tile.drawy(), entity.totalProgress * 1.7);
+    Draw.rect(this.rotateRegion, tile.drawx(), tile.drawy(), entity.totalProgress * -2.75);
     Draw.rect(this.topRegion, tile.drawx(), tile.drawy());
   }
 });
