@@ -14,7 +14,7 @@ consumes: {
   }
   items: {
     items: [
-      virite/3
+      virite/2
     ]
   }
 }
