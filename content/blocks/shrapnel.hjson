@@ -60,6 +60,20 @@ ammo: {
       incendChance: 33
     }
   }
+  polonium: {
+    speed: 1
+    damage: 300
+    ammoMultiplier: 1
+    fragBullets: 15
+    lifetime: 120
+    hitSize: 8
+    drawSize: 80
+    collidesAir: false
+    fragBullet: {
+      speed: 4
+      damage: 50
+    }
+  }
 }
 requirements: [
   copper/50
