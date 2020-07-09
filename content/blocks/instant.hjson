@@ -14,19 +14,19 @@ ammoPerShot: 1
 ammo: {
   scrap: {
     speed: 20
-    damage: 9
+    damage: 12
     ammoMultiplier: 6
     drawSize: 4
   }
   lead: {
     speed: 16
-    damage: 16
+    damage: 20
     ammoMultiplier: 3
     drawSize: 4
   }
   coal: {
     speed: 16
-    damage: 12
+    damage: 16
     ammoMultiplier: 3
     drawSize: 4
     incendAmount: 1
@@ -35,21 +35,21 @@ ammo: {
   }
   silicon: {
     speed: 16
-    damage: 16
+    damage: 20
     ammoMultiplier: 3
     drawSize: 4
     homingPower: 12
   }
   titanium: {
     speed: 13
-    damage: 32
+    damage: 40
     ammoMultiplier: 3
     drawSize: 4
     reloadMultiplier: 0.6
   }
   polonium: {
     speed: 13
-    damage: 64
+    damage: 80
     ammoMultiplier: 1
     drawSize: 4
     reloadMultiplier: 0.4
