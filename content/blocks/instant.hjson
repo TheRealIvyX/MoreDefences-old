@@ -47,6 +47,13 @@ ammo: {
     drawSize: 4
     reloadMultiplier: 0.6
   }
+  polonium: {
+    speed: 13
+    damage: 64
+    ammoMultiplier: 1
+    drawSize: 4
+    reloadMultiplier: 0.4
+  }
 }
 requirements: [
   titanium/50
