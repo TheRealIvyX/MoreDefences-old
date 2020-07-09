@@ -1,2 +1,2 @@
-require("vanadium-extractor")
-require("polonium-wall")
+require("more-defences-ivyx/vanadium-extractor")
+require("more-defences-ivyx/polonium-wall")
