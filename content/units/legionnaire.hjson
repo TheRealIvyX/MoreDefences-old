@@ -3,7 +3,7 @@ name: Legionnaire
 description: An upgraded Swarmer designed to devastate enemy defences. 
 speed: 0.7
 flying: true
-health: 1500
+health: 2500
 engineOffset: 6
 shootCone: 90
 range: 60
