@@ -13,8 +13,8 @@ maxVelocity: 1.3
 rotatespeed: 0.3
 weapon: {
   name: legionnaire-minigun
-  length: 1
-  width: 1
+  length: -10
+  width: 3
   reload: 10
   alternate: true
   inaccuracy: 22.5
