@@ -29,9 +29,8 @@ ammo: {
     reloadMultiplier: 0.6
   }
   virite: {
-    type: BasicBulletType,
-    frontColor: #f57f99
-    backColor: #d61c45
+    frontColor: f57f99
+    backColor: d61c45
     speed: 12.5
     damage: 125
     ammoMultiplier: 1
