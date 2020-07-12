@@ -40,12 +40,6 @@ ammo: {
     splashDamage: 125
     splashDamageRadius: 24
   }
-  vanadium: {
-    speed: 10
-    damage: 2000
-    ammoMultiplier: 1
-    reloadMultiplier: 0.4
-  }
   polonium: {
     speed: 15
     damage: 1500
