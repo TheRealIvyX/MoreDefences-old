@@ -12,7 +12,7 @@ requirements: [
   lead/50
   graphite/30
 ]
-category: crafting
+category: production
 research: graphite-press
 idleSound: respawning
 idleSoundVolume: 0.5
