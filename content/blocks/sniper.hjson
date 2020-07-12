@@ -4,12 +4,12 @@ description: Fires powerful bullets at a very slow rate.
 health: 200
 size: 1
 reload: 240
-range: 200
+range: 432
 ammoUseEffect: shellEjectSmall
 inaccuracy: 0
-rotatespeed: 3
+rotatespeed: 2
 shots: 1
-ammoPerShot: 5
+ammoPerShot: 6
 ammo: {
   scrap: {
     speed: 15
@@ -28,6 +28,31 @@ ammo: {
     ammoMultiplier: 1
     reloadMultiplier: 0.6
   }
+  virite: {
+    type: BasicBulletType,
+    frontColor: #f57f99
+    backColor: #d61c45
+    speed: 12.5
+    damage: 125
+    ammoMultiplier: 1
+    incendChance: 100
+    incendSpread: 8.8
+    incendAmount: 10
+    splashDamage: 125
+    splashDamageRadius: 24
+  }
+  vanadium: {
+    speed: 10
+    damage: 2000
+    ammoMultiplier: 1
+    reloadMultiplier: 0.4
+  }
+  polonium: {
+    speed: 15
+    damage: 1500
+    ammoMultiplier: 4
+    reloadMultiplier: 0.4
+  }
 }
 requirements: [
   thorium/30
@@ -35,4 +60,4 @@ requirements: [
   vanadium/5
 ]
 category: turret
-research: duo
+research: vanadium-extractor
