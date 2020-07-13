@@ -7,6 +7,7 @@ rotatespeed: 0.025
 flying: true
 health: 3000
 engineOffset: 0
+rotateWeapon: true
 range: 250
 mass: 100
 weapon: {
