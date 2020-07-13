@@ -13,20 +13,20 @@ shotWidth: 4
 ammo: {
   vanadium: {
     speed: 8
-    damage: 20
+    damage: 40
     ammoMultiplier: 6
   }
   polonium: {
     speed: 7
-    damage: 40
+    damage: 80
     ammoMultiplier: 6
     reloadMultiplier: 0.6
   }
   tefium: {
     speed: 8
-    damage: 10
+    damage: 20
     ammoMultiplier: 6
-    splashDamage: 15
+    splashDamage: 30
     splashDamageRadius: 16
   }
 }
