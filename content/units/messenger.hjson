@@ -4,7 +4,7 @@ description: A heavy gunship capable of communication.
 speed: 0.05
 maxVelocity: 0.15
 rotatespeed: 0.025
-hitsize: 42
+hitsize: 82
 flying: true
 health: 3000
 engineOffset: 0
