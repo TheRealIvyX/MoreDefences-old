@@ -23,7 +23,7 @@ requirements: [
   }	
   {	
     type: Unlock	
-    block: virite-compressor
+    block: water-extractor
   }	
 ]	
 resources: [	
