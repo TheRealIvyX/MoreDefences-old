@@ -1,0 +1,26 @@
+type: hoverUnit
+name: Messenger
+description: A heavy gunship capable of communication. 
+speed: 0.05
+maxVelocity: 0.15
+rotatespeed: 0.025
+flying: true
+health: 3000
+engineOffset: 0
+range: 250
+mass: 100
+weapon: {
+  name: messenger-gun
+  length: 0
+  width: 6
+  inaccuracy: 5
+  reload: 2
+  alternate: true
+  bullet: {
+    speed: 5
+    damage: 10
+    incendAmount: 5
+    incendChance: 2
+    incendSpread: 6
+  }
+}
