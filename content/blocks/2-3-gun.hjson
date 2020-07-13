@@ -4,7 +4,7 @@ description: A powerful turret that rapidly fires strong projectiles without usi
 health: 800
 size: 2
 reload: 6
-range: 128
+range: 160
 ammoUseEffect: shellEjectSmall
 inaccuracy: 0.5
 rotatespeed: 5
