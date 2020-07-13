@@ -21,6 +21,10 @@ requirements: [
     type: Unlock	
     block: cryofluidmixer
   }	
+  {	
+    type: Unlock	
+    block: virite-compressor
+  }	
 ]	
 resources: [	
   copper	
