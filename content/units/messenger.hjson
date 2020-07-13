@@ -5,10 +5,12 @@ speed: 0.05
 maxVelocity: 0.15
 rotatespeed: 0.025
 hitsize: 82
+hitsizeTile: 8
 flying: true
 health: 3000
 engineOffset: 0
 rotateWeapon: true
+shootCone: 45
 range: 250
 mass: 100
 weapon: {
