@@ -18,9 +18,9 @@ weapon: {
   length: 0
   shots: 3
   width: 6
-  inaccuracy: 0
+  inaccuracy: 1
   spread: 8
-  reload: 6
+  reload: 12
   alternate: true
   shootSound: shootSnap
   bullet: {
