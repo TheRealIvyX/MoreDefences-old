@@ -1,7 +1,7 @@
 type: hoverUnit
 name: Messenger
 description: A heavy gunship capable of communication. 
-speed: 0.05
+speed: 0.15
 maxVelocity: 0.15
 rotatespeed: 0.025
 hitsize: 82
@@ -16,9 +16,11 @@ mass: 100
 weapon: {
   name: messenger-gun
   length: 0
+  shots: 3
   width: 6
-  inaccuracy: 5
-  reload: 2
+  inaccuracy: 15
+  spread: 8
+  reload: 6
   alternate: true
   bullet: {
     speed: 5
@@ -26,5 +28,9 @@ weapon: {
     incendAmount: 5
     incendChance: 2
     incendSpread: 6
+    bulletWidth: 7
+    bulletHeight: 12
+    backColor: c78500
+    frontColor: f3ff52
   }
 }
