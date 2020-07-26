@@ -12,19 +12,19 @@ spread: 0
 ammo: {
   coal: {
     speed: 5
-    damage: 60
+    damage: 90
     ammoMultiplier: 1.5
     homingPower: 0.05
-    incendAmount: 6
+    incendAmount: 7
     incendSpread: 10
     incendChance: 25
   }
   silicon: {
     speed: 5
-    damage: 60
+    damage: 90
     ammoMultiplier: 1.5
     homingPower: 0.2
-    incendAmount: 6
+    incendAmount: 7
     incendSpread: 10
     incendChance: 12.5
   }
