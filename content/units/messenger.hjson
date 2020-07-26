@@ -31,7 +31,7 @@ weapon: {
     incendSpread: 6
     bulletWidth: 9
     bulletHeight: 12
-    backColor: ff0000
+    backColor: ff8000
     frontColor: ffca2b
   }
 }
