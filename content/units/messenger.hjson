@@ -3,7 +3,7 @@ name: Messenger
 description: A heavy gunship capable of communication. 
 speed: 0.15
 maxVelocity: 0.15
-rotatespeed: 0.025
+rotatespeed: 0.05
 hitsize: 82
 hitsizeTile: 8
 flying: true
@@ -32,6 +32,6 @@ weapon: {
     bulletWidth: 9
     bulletHeight: 12
     backColor: ff0000
-    frontColor: fff00
+    frontColor: fff000
   }
 }
