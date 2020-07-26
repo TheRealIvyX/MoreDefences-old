@@ -30,7 +30,7 @@ weapon: {
     incendSpread: 6
     bulletWidth: 7
     bulletHeight: 12
-    backColor: c78500
+    backColor: ff0000
     frontColor: f3ff52
   }
 }
