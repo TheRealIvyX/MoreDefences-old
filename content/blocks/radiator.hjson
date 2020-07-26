@@ -1,8 +1,8 @@
 type: ItemTurret
 name: Radiator
 description: Fires powerful bullets at a fast rate.
-health: 200
-size: 1480
+health: 1480
+size: 3
 reload: 30
 range: 200
 ammoUseEffect: shellEjectSmall
