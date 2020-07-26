@@ -32,6 +32,6 @@ weapon: {
     bulletWidth: 9
     bulletHeight: 12
     backColor: ff0000
-    frontColor: fff000
+    frontColor: ff0000
   }
 }
