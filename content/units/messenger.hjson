@@ -18,7 +18,7 @@ weapon: {
   length: 0
   shots: 3
   width: 6
-  inaccuracy: 1
+  inaccuracy: 3
   spread: 8
   reload: 12
   alternate: true
@@ -31,7 +31,7 @@ weapon: {
     incendSpread: 6
     bulletWidth: 9
     bulletHeight: 12
-    backColor: ff0000
-    frontColor: ebb617
+    backColor: ebb617
+    frontColor: ff0000
   }
 }
