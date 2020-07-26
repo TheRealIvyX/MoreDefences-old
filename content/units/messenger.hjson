@@ -18,19 +18,20 @@ weapon: {
   length: 0
   shots: 3
   width: 6
-  inaccuracy: 15
+  inaccuracy: 0
   spread: 8
   reload: 6
   alternate: true
+  shootSound: shootSnap
   bullet: {
     speed: 5
     damage: 10
     incendAmount: 5
     incendChance: 2
     incendSpread: 6
-    bulletWidth: 7
+    bulletWidth: 9
     bulletHeight: 12
     backColor: ff0000
-    frontColor: f3ff52
+    frontColor: fff00
   }
 }
