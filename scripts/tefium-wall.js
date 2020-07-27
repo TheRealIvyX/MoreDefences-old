@@ -7,7 +7,7 @@ tefiumWallProjectile.homingPower = 0.05
 tefiumWallProjectile.homingRange = 75
 tefiumWallProjectile.frontColor = Color.valueOf('#ffffff')
 tefiumWallProjectile.backColor = Color.valueOf('#00875a')
-const tefiumwall = extendContent(Wall, "tefium-wall", {
+const tefiumWall = extendContent(Wall, "tefium-wall", {
    load(){
     this.super$load();
     this.region = Core.atlas.find("more-defences-ivyx-tefium-wall")
