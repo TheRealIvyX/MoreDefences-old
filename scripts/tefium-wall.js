@@ -9,8 +9,10 @@ tBullet.homingRange = 75
 tBullet.frontColor = '#ffffff'
 tBullet.backColor = '#00875a'
 const tefiumwall = extendContent(Wall, "tefium-wall", {
-  load() {
-    this.bulletTimer = 0
+   load(){
+    this.super$load();
+    this.region = Core.atlas.find("more-defences-ivyx-tefium-wall")
+    this.bulletTimer = 0;
   },
   update(tile){
     this.super$update(tile);
