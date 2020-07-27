@@ -1,4 +1,4 @@
-const tBullet = extend(BasicBulletType, {
+const tBullet = extend(MissileBulletType, {
    draw(b){}
 });
 tBullet.speed = 6
