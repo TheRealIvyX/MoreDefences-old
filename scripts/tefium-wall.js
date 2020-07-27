@@ -20,4 +20,4 @@ const tefiumwall = extendContent(Wall, "tefium-wall", {
     }
   }
 });
-tefiumWall.shootTefiumWallProjectile = tefium.timers++;
+tefiumWall.shootTefiumWallProjectile = tefiumWall.timers++;
