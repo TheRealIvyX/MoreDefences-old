@@ -14,7 +14,7 @@ const tefiumWall = extendContent(Wall, "tefium-wall", {
   },
   update(tile){
     this.super$update(tile);
-    if (tile.entity.timer.get(this.shootTefiumWallProjectile, 120)){
+    if (tile.ent().timer.get(this.shootTefiumWallProjectile, 120)){
      Calls.createBullet(tefiumWallProjectile, this.getTeam(), this.x, this.y, this.rotation, 1, 1)
      print('it works');
     }
