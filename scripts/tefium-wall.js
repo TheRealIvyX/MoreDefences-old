@@ -1,13 +1,14 @@
-const tBullet = extend(MissileBulletType, {
+const tefiumWallProjectile = extend(MissileBulletType, {
    draw(b){}
 });
-tBullet.speed = 6
-tBullet.damage = 60
-tBullet.lifetime = 60
-tBullet.homingPower = 0.05
-tBullet.homingRange = 75
-tBullet.frontColor = '#ffffff'
-tBullet.backColor = '#00875a'
+tefiumWallProjectile.speed = 6
+tefiumWallProjectile.damage = 60
+tefiumWallProjectile.lifetime = 60
+tefiumWallProjectile.homingPower = 0.05
+tefiumWallProjectile.homingRange = 75
+tefiumWallProjectile.frontColor = '#ffffff'
+tefiumWallProjectile.backColor = '#00875a'
+
 const tefiumwall = extendContent(Wall, "tefium-wall", {
    load(){
     this.super$load();
@@ -16,12 +17,10 @@ const tefiumwall = extendContent(Wall, "tefium-wall", {
   },
   update(tile){
     this.super$update(tile);
-    this.bulletTimer++
-    if (this.bulletTimer > 120) {
-      this.bulletTimer = 0
-      for (var i = 0; i < 5; i++) {
-        blib.spawnBullet(tBullet, this.getTeam(), this.x, this.y)
-      }
+    if (tile.entity.timer.get(this.shootTefiumWallProjectile, 120)){
+     Calls.createBullet(tBullet, this.getTeam(), this.x, this.y, rotation, 1, 1)
+}
     }
   },
 });
+tefiumWall.shootTefiumWallProjectile = tefium.timers++;
