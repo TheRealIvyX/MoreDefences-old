@@ -14,7 +14,7 @@ const tefiumWall = extendContent(Wall, "tefium-wall", {
     this.region = Core.atlas.find("more-defences-ivyx-tefium-wall")
   },
   update(tile){
-    this.super$update(tile);
+    //this.super$update(tile);
     if (tile.ent().timer.get(this.shootTefiumWallProjectile, 120)) {
       Bullet.create(tefiumWallProjectile, this.getTeam(), this.x, this.y, this.rotation, 1, 1)
       print('it works');
