@@ -1,0 +1,10 @@
+name: Tefium Wall
+description: A very durable defensive block. Creates 5 homing bullets once every 2 seconds
+type: Wall
+health: 1000
+size: 1
+requirements: [
+  tefium/6
+]
+category: defense
+research: tefium-forge
