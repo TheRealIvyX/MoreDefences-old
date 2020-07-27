@@ -11,7 +11,6 @@ const tefiumwall = extendContent(Wall, "tefium-wall", {
    load(){
     this.super$load();
     this.region = Core.atlas.find("more-defences-ivyx-tefium-wall")
-    this.bulletTimer = 0;
   },
   update(tile){
     this.super$update(tile);
