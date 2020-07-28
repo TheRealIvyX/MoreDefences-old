@@ -6,8 +6,10 @@ maxVelocity: 3
 mass: 5
 flying: true
 health: 750
+weaponOffsetY: 11
 engineColor: 84f491
 ejectEffect: shellEjectBig
+velocityRnd: 1
 weapon: {
   name: 2-3-weapon
   length: 3
