@@ -19,10 +19,11 @@ weapon: {
   alternate: true
   shootSound: shootSnap
   bullet: {
-    speed: 6
-    damage: 35
-    bulletWidth: 11
-    bulletHeight: 14
+    speed: 8
+    damage: 30
+    ammoMultiplier: 6
+    splashDamage: 45
+    splashDamageRadius: 16
   }
 }
 range: 200
