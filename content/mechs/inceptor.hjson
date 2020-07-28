@@ -25,5 +25,5 @@ range: 200
 engineOffset: 2
 drillPower: 0
 mineSpeed: 0
-buildPower: 0.5
-itemCapacity: 0
+buildPower: 0.7
+itemCapacity: 20
