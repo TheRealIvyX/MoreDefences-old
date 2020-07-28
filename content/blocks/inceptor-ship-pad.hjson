@@ -7,7 +7,7 @@ consumes: {
   power: 2
 }
 category: upgrade
-research: glaive-mech-pad
+research: glaive-ship-pad
 requirements: [
   lead/100
   silicon/100
