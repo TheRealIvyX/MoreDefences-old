@@ -9,7 +9,7 @@ weapon: {
   name: 2-3-weapon
   length: 3
   shots: 1
-  width: 12
+  width: 16
   inaccuracy: 3
   reload: 10
   alternate: true
