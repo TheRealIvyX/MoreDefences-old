@@ -1,7 +1,9 @@
 type: HoverUnit
 name: Inceptor
 description: A fully offensive unit that cannot do working duties.
-speed: 1
+speed: 0.9
+maxVelocity: 3
+mass: 5
 flying: true
 health: 750
 engineColor: 84f491
