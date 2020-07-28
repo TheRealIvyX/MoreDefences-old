@@ -3,7 +3,7 @@ name: Inceptor
 description: A fully offensive unit that cannot do working duties.
 speed: 1
 flying: true
-health: 450
+health: 750
 engineColor: 84f491
 weapon: {
   name: 2-3-weapon
