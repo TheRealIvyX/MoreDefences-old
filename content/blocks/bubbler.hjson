@@ -41,7 +41,7 @@ ammo: {
   cryofluid: {
     type: LiquidBulletType
     liquid: cryofluid
-    damage: 1
+    damage: 0.125
     status: freezing
     pierce: true
     lifetime: 300
