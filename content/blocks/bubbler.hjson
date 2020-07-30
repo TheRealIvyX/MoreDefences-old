@@ -21,9 +21,16 @@ ammo: {
   }
   oil: {
     type: LiquidBulletType
-    liquid: slag
+    liquid: oil
     damage: 0.75
     status: tarred
+    pierce: true
+  }
+  cryofluid: {
+    type: LiquidBulletType
+    liquid: cryofluid
+    damage: 0.25
+    status: freezing
     pierce: true
   }
 }
