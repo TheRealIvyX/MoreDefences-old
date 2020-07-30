@@ -23,8 +23,7 @@ ammo: {
     type: LiquidBulletType
     liquid: slag
     damage: 0.375
-    incendChance: 2.5
-    incendAmount: 6
+    status: melting
     pierce: true
     lifetime: 300
     drag: 0.025
