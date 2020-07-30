@@ -14,6 +14,7 @@ ammo: {
     type: LiquidBulletType
     liquid: water
     damage: 0.25
+    status: wet
     pierce: true
     lifetime: 420
     drag: 0.025
@@ -40,11 +41,12 @@ ammo: {
   cryofluid: {
     type: LiquidBulletType
     liquid: cryofluid
-    damage: 0.125
+    damage: 1
     status: freezing
     pierce: true
     lifetime: 300
     drag: 0.025
+    reloadMultiplier: 0.125
   }
 }
 requirements: [
