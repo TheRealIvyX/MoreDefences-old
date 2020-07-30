@@ -7,14 +7,16 @@ reload: 6
 range: 200
 inaccuracy: 5
 rotatespeed: 5
-spread: 90
-shots: 4
+spread: 45
+shots: 8
 ammo: {
  water: {
     type: LiquidBulletType
     liquid: water
     damage: 0.5
     pierce: true
+    lifetime: 420
+    drag: 0.25
   }
   slag: {
     type: LiquidBulletType
@@ -23,6 +25,8 @@ ammo: {
     incendChance: 2.5
     incendAmount: 6
     pierce: true
+    lifetime: 300
+    drag: 0.25
   }
   oil: {
     type: LiquidBulletType
@@ -30,6 +34,8 @@ ammo: {
     damage: 0.75
     status: tarred
     pierce: true
+    lifetime: 300
+    drag: 0.25
   }
   cryofluid: {
     type: LiquidBulletType
@@ -37,6 +43,8 @@ ammo: {
     damage: 0.25
     status: freezing
     pierce: true
+    lifetime: 300
+    drag: 0.25
   }
 }
 requirements: [
