@@ -10,6 +10,12 @@ rotatespeed: 5
 spread: 90
 shots: 4
 ammo: {
+ water: {
+    type: LiquidBulletType
+    liquid: water
+    damage: 0.5
+    pierce: true
+  }
   slag: {
     type: LiquidBulletType
     liquid: slag
