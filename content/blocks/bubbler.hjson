@@ -16,7 +16,7 @@ ammo: {
     damage: 0.5
     pierce: true
     lifetime: 420
-    drag: 0.025
+    drag: 0.0001
   }
   slag: {
     type: LiquidBulletType
@@ -26,7 +26,7 @@ ammo: {
     incendAmount: 6
     pierce: true
     lifetime: 300
-    drag: 0.025
+    drag: 0.0001
   }
   oil: {
     type: LiquidBulletType
@@ -35,7 +35,7 @@ ammo: {
     status: tarred
     pierce: true
     lifetime: 300
-    drag: 0.025
+    drag: 0.0001
   }
   cryofluid: {
     type: LiquidBulletType
@@ -44,7 +44,7 @@ ammo: {
     status: freezing
     pierce: true
     lifetime: 300
-    drag: 0.025
+    drag: 0.0001
   }
 }
 requirements: [
