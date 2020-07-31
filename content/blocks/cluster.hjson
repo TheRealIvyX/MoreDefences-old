@@ -7,7 +7,7 @@ range: 360
 ammoUseEffect: shellEjectBig
 inaccuracy: 10
 velocityInaccuracy: 0.1
-shots: 12
+shots: 8
 reload: 60
 recoil: 6
 ammoEjectBack: 5
