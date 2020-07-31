@@ -1,0 +1,80 @@
+type: ArtilleryTurret
+name: Cluster
+description: An upgraded Ripple. Fires large amounts of bullets at once.
+health: 1600
+size: 4
+range: 360
+ammoUseEffect: shellEjectBig
+inaccuracy: 16
+shots: 9
+reload: 60
+recoil: 6
+ammoEjectBack: 5
+cooldown: 0.03
+shootshake: 2
+shootsound: artillery
+ammo: {
+  graphite: {
+    type: ArtilleryBulletType
+    hitEffect: flakExplosion
+    knockback: 0.8
+    lifetime: 80
+    bulletWidth: 11
+    bulletHeight: 11
+    collidesTiles: false
+    splashDamageRadius: 25
+    splashDamage: 29.7
+  }
+  pyratite: {
+    type: ArtilleryBulletType
+    hitEffect: blastExplosion
+    knockback: 0.8
+    lifetime: 80
+    bulletWidth: 13
+    bulletHeight: 13
+    collidesTiles: false
+    splashDamageRadius: 25
+    splashDamage: 31.5
+    status: burning
+    frontColor: lightishOrange
+    backColor: lightOrange
+    trailEffect: incendTrail
+  }
+  blastCompound: {
+    type: ArtilleryBulletType
+    hitEffect: blastExplosion
+    knockback: 0.8
+    lifetime: 70
+    bulletWidth: 14
+    bulletHeight: 14
+    collidesTiles: false
+    ammoMultiplier: 4
+    splashDamageRadius: 45
+    splashDamage: 45
+    frontColor: missileYellowBack
+    backColor: missileYellow
+  }
+  plastanium: {
+    type: ArtilleryBulletType
+    hitEffect: plasticExplosion
+    knockback: 1
+    lifetime: 80
+    bulletWidth: 13
+    bulletHeight: 13
+    collidesTiles: false
+    splashDamageRadius: 35
+    splashDamage: 40.5
+    frontColor: plastaniumBack
+    backColor: plastaniumFront
+    fragBullet: artilleryPlasticFrag
+    fragBullets: 10
+  }
+}
+requirements: [
+  copper/250
+  graphite/200
+  titanium/120
+  thorium/60
+]
+category: turret
+research: ripple
