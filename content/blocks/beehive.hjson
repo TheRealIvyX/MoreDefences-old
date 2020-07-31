@@ -22,6 +22,8 @@ ammo: {
     homingRange: 80
     backColor: ffff00
     frontColor: 000000
+    bulletWidth: 3
+    bulletHeight: 4
   }
 }
 requirements: [
