@@ -77,6 +77,7 @@ ammo: {
 }
 requirements: [
   copper/250
+  lead/200
   graphite/200
   titanium/120
   thorium/60
