@@ -1,7 +1,7 @@
   
 type: ItemTurret
 name: Beehive
-description: A turret that fires a powerful swarm of homing piercing projectiles. Uses lead as ammo
+description: A turret that fires a powerful swarm of homing piercing projectiles. Uses lead as ammo.
 health: 75
 size: 2
 reload: 3
