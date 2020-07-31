@@ -5,7 +5,7 @@ description: A turret that fires a powerful swarm of homing piercing projectiles
 health: 75
 size: 2
 reload: 3
-range: 80
+range: 288
 ammoUseEffect: shellEjectSmall
 inaccuracy: 0
 rotatespeed: 2.5
@@ -18,7 +18,7 @@ ammo: {
     ammoMultiplier: 1
     pierce: true
     lifetime: 120
-    homingPower: 0.025
+    homingPower: 0.05
     homingRange: 80
   }
 }
