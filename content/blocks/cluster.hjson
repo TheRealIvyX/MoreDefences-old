@@ -17,6 +17,7 @@ shootsound: artillery
 ammo: {
   graphite: {
     type: ArtilleryBulletType
+    speed: 4
     hitEffect: flakExplosion
     knockback: 0.8
     lifetime: 80
@@ -28,6 +29,7 @@ ammo: {
   }
   pyratite: {
     type: ArtilleryBulletType
+    speed: 4
     hitEffect: blastExplosion
     knockback: 0.8
     lifetime: 80
@@ -43,6 +45,7 @@ ammo: {
   }
   blast-compound: {
     type: ArtilleryBulletType
+    speed: 4
     hitEffect: blastExplosion
     knockback: 0.8
     lifetime: 70
@@ -57,6 +60,7 @@ ammo: {
   }
   plastanium: {
     type: ArtilleryBulletType
+    speed: 4
     hitEffect: plasticExplosion
     knockback: 1
     lifetime: 80
