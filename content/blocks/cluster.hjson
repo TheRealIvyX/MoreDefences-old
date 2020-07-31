@@ -40,7 +40,7 @@ ammo: {
     backColor: lightOrange
     trailEffect: incendTrail
   }
-  blastCompound: {
+  blast-compound: {
     type: ArtilleryBulletType
     hitEffect: blastExplosion
     knockback: 0.8
