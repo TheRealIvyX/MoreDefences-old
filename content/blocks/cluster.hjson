@@ -39,8 +39,8 @@ ammo: {
     splashDamageRadius: 25
     splashDamage: 31.5
     status: burning
-    frontColor: lightishOrange
-    backColor: lightOrange
+    backColor: e89c46
+    frontColor: ff8700
     trailEffect: incendTrail
   }
   blast-compound: {
@@ -55,8 +55,8 @@ ammo: {
     ammoMultiplier: 4
     splashDamageRadius: 45
     splashDamage: 45
-    frontColor: missileYellowBack
-    backColor: missileYellow
+    backColor: e85e46
+    frontColor: ff2600
   }
   plastanium: {
     type: ArtilleryBulletType
