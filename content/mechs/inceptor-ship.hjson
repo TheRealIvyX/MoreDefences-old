@@ -19,7 +19,9 @@ weapon: {
   shootSound: shootSnap
   bullet: {
     speed: 8
-    damage: 10
+    damage: 30
+    splashDamage: 45	
+    splashDamageRadius: 16
   }
 }
 range: 170
