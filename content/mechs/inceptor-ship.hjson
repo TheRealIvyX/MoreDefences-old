@@ -1,7 +1,7 @@
 type: HoverUnit
 name: Inceptor
 description: A fully offensive unit that cannot do working duties.
-speed: 0.2
+speed: 0.4
 maxVelocity: 3
 mass: 5
 flying: true
@@ -14,21 +14,18 @@ weapon: {
   length: 0
   shots: 1
   width: 10
-  inaccuracy: 3
-  reload: 10
+  inaccuracy: 15
+  reload: 20
   alternate: true
   shootSound: shootSnap
   bullet: {
     speed: 8
-    damage: 30
-    ammoMultiplier: 6
-    splashDamage: 45
-    splashDamageRadius: 16
+    damage: 10
   }
 }
-range: 200
+range: 170
 engineOffset: 2.5
 drillPower: 0
 mineSpeed: 0
-buildPower: 0.7
+buildPower: 0.5
 itemCapacity: 20
