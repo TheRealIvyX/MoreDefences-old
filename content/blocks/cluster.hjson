@@ -56,7 +56,7 @@ ammo: {
     splashDamageRadius: 45
     splashDamage: 45
     backColor: e85e46
-    frontColor: ff2600
+    frontColor: ffdfd1
   }
   plastanium: {
     type: ArtilleryBulletType
@@ -69,8 +69,8 @@ ammo: {
     collidesTiles: false
     splashDamageRadius: 35
     splashDamage: 40.5
-    frontColor: plastaniumBack
-    backColor: plastaniumFront
+    frontColor: plastaniumFront
+    backColor: plastaniumBack
     fragBullet: artilleryPlasticFrag
     fragBullets: 10
   }
