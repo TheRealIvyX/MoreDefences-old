@@ -8,14 +8,13 @@ flying: true
 health: 750
 engineColor: 84f491
 ejectEffect: shellEjectBig
-velocityRnd: 1
 weapon: {
   name: 2-3-weapon
   length: 0
   shots: 1
   width: 10
-  inaccuracy: 15
-  reload: 20
+  inaccuracy: 3
+  reload: 15
   alternate: true
   shootSound: shootSnap
   bullet: {
