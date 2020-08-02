@@ -85,7 +85,7 @@ ammo: {
     bulletHeight: 11
     collidesTiles: false
     splashDamageRadius: 95
-    splashDamage: 150
+    splashDamage: 200
     frontColor: e8a982
     backColor: e68e57
   }
