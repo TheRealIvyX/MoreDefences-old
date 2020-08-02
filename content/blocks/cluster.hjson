@@ -69,7 +69,7 @@ ammo: {
     collidesTiles: false
     splashDamageRadius: 35
     splashDamage: 40.5
-    frontColor: plastaniumFront
+    frontColor: ffffff
     backColor: plastaniumBack
     fragBullet: artilleryPlasticFrag
     fragBullets: 10
