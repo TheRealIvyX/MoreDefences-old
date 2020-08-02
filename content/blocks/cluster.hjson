@@ -74,6 +74,21 @@ ammo: {
     fragBullet: artilleryPlasticFrag
     fragBullets: 10
   }
+  polonium: {
+    type: ArtilleryBulletType
+    speed: 6
+    hitEffect: flakExplosion
+    knockback: 0.8
+    ammoMultiplier: 1.5
+    lifetime: 80
+    bulletWidth: 11
+    bulletHeight: 11
+    collidesTiles: false
+    splashDamageRadius: 95
+    splashDamage: 150
+    frontColor: e8a982
+    backColor: e68e57
+  }
 }
 requirements: [
   copper/250
