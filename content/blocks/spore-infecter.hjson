@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Infecter
+name: Spore Infecter
 description: Synthesizes an unknown type of Virus and infects spore pods with it.
 size: 2
 hasPower: true
