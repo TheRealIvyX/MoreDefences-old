@@ -78,9 +78,9 @@ ammo: {
 requirements: [
   copper/250
   titanium/240
+  lead/230
   graphite/200
-  thorium/120
-  plastanium/80
+  thorium/150
 ]
 category: turret
 research: ripple
