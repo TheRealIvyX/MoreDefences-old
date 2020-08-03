@@ -1,4 +1,4 @@
-type: Mech
+type: HoverUnit
 name: Arrow
 flying: true
 description: An upgraded Dart. Fires powerful artillery shells at enemy ground units and structures.
@@ -24,8 +24,8 @@ weapon: {
   bullet: artilleryDense
 }
 range: 160
-engineOffset: 2.5
 drillPower: 1
 mineSpeed: 2.75
 buildPower: 1
 itemCapacity: 30
+targetAir: false
