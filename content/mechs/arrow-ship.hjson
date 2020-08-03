@@ -16,7 +16,7 @@ weapon: {
   name: arrow-weapon
   length: 0
   shots: 1
-  width: 10
+  width: 1
   inaccuracy: 0
   reload: 50
   alternate: false
