@@ -22,6 +22,7 @@ weapon: {
   alternate: false
   shootSound: shootSnap
   bullet: {
+    speed: 5
     hitEffect: flakExplosion
     knockback: 0.8
     lifetime: 80
