@@ -4,8 +4,16 @@ type: MechPad
 health: 175
 mech: arrow-ship
 size: 2
+hasItems: true
+itemCapacity: 12
 consumes: {
   power: 0.65
+  items: {
+    items: [
+      copper/2
+      graphite/3
+    ]
+  }
 }
 category: upgrade
 research: dart-mech-pad
