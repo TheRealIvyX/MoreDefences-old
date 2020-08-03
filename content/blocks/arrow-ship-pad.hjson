@@ -1,5 +1,5 @@
 name: Arrow Ship Pad
-description: Provides transformation into an upgraded Dart. Required Copper and Graphite to function.
+description: Provides transformation into an upgraded Dart.
 type: MechPad
 health: 175
 mech: arrow-ship
