@@ -8,7 +8,7 @@ drag: 0.09
 mass: 1
 flying: true
 health: 220
-engineColor: 84f491
+engineColor: ffa665
 ejectEffect: shellEjectSmall
 weaponOffsetY: 0
 weaponOffsetX: 0
