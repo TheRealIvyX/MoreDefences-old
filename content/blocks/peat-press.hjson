@@ -19,7 +19,7 @@ requirements: [
   biomatter/15
 ]
 category: crafting
-research: cultivator
+research: peat-cultivator
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: coal/1
