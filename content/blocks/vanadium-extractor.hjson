@@ -4,7 +4,7 @@ size: 4
 health: 9000
 hasPower: true
 hasLiquids: true
-craftTime: 800
+craftTime: 400
 consumes: {
   power: 2
   liquid: {
