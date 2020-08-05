@@ -9,7 +9,7 @@ mass: 2
 flying: true
 health: 280
 engineColor: ffa68c
-engineOffset: 2
+engineOffset: 3
 ejectEffect: none
 weaponOffsetY: 0
 weaponOffsetX: 0
