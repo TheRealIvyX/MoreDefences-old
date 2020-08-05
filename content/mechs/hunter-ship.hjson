@@ -9,7 +9,7 @@ mass: 2
 flying: true
 health: 280
 engineColor: ffa68c
-engineOffset: 1
+engineOffset: -1
 ejectEffect: none
 weaponOffsetY: 0
 weaponOffsetX: 0
@@ -18,9 +18,9 @@ weapon: {
   name: hunter-weapon
   length: 0
   shots: 3
-  spacing: 6
+  spacing: 3
   width: 4
-  inaccuracy: 2
+  inaccuracy: 1
   reload: 120
   alternate: true
   shootSound: missile
