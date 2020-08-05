@@ -1,0 +1,44 @@
+type: HoverUnit
+name: Hunter
+flying: true
+description: An upgraded Arrow. Fires bursts of 3 homing incendiary missiles.
+speed: 0.5
+maxVelocity: 9
+drag: 0.09
+mass: 2
+flying: true
+health: 260
+engineColor: ffa68c
+engineOffset: 1
+ejectEffect: none
+weaponOffsetY: 0
+weaponOffsetX: 0
+hitsize: 9
+weapon: {
+  name: hunter-weapon
+  length: 0
+  shots: 3
+  width: 3
+  inaccuracy: 5
+  reload: 120
+  alternate: true
+  shootSound: missile
+  bullet: {
+    type: MissileBulletType
+    speed: 6
+    hitEffect: flakExplosion
+    knockback: 0.8
+    lifetime: 80
+    splashDamageRadius: 20
+    splashDamage: 45
+    homingPower: 0.1
+    incendChance: 20
+    incendSpread: 10
+    incendAmount: 6
+  }
+}
+range: 230
+drillPower: 1
+mineSpeed: 2.5
+buildPower: 0.95
+itemCapacity: 40
