@@ -9,7 +9,7 @@ mass: 2
 flying: true
 health: 280
 engineColor: ffa68c
-engineOffset: -1
+engineOffset: 2
 ejectEffect: none
 weaponOffsetY: 0
 weaponOffsetX: 0
@@ -40,6 +40,8 @@ weapon: {
     incendChance: 10
     incendSpread: 10
     incendAmount: 6
+    backColor: ff9e42
+    frontColor: ffbc7d
   }
 }
 range: 230
