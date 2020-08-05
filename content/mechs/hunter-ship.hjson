@@ -18,9 +18,9 @@ weapon: {
   name: hunter-weapon
   length: 0
   shots: 3
-  spread: 2
+  spacing: 6
   width: 4
-  inaccuracy: 1
+  inaccuracy: 2
   reload: 120
   alternate: true
   shootSound: missile
