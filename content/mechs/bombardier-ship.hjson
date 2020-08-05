@@ -32,7 +32,7 @@ weapon: {
     bulletWidth: 10
     bulletHeight: 14
     splashDamageRadius: 20
-    splashDamage: 45
+    splashDamage: 90
   }
 }
 range: 16
