@@ -1,7 +1,7 @@
 type: HoverUnit
 name: Hunter
 flying: true
-description: An upgraded Arrow. Fires bursts of 3 homing incendiary missiles.
+description: A basic Missiler ship. Fires bursts of 3 homing incendiary missiles.
 speed: 0.5
 maxVelocity: 9
 drag: 0.09
