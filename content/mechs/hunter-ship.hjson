@@ -7,7 +7,7 @@ maxVelocity: 9
 drag: 0.09
 mass: 2
 flying: true
-health: 260
+health: 280
 engineColor: ffa68c
 engineOffset: 1
 ejectEffect: none
@@ -19,7 +19,7 @@ weapon: {
   length: 0
   shots: 3
   width: 4
-  inaccuracy: 2.5
+  inaccuracy: 2
   reload: 120
   alternate: true
   shootSound: missile
