@@ -1,5 +1,5 @@
 name: Hunter Ship Pad
-description: Provides transformation into an upgraded Arrow.
+description: Provides transformation into a basic Missiler ship.
 type: MechPad
 health: 360
 mech: hunter-ship
