@@ -19,7 +19,7 @@ weapon: {
   length: 0
   shots: 3
   width: 4
-  inaccuracy: 2
+  inaccuracy: 1
   reload: 120
   alternate: true
   shootSound: missile
