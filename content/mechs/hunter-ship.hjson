@@ -31,16 +31,15 @@ weapon: {
     weaveScale: 2
     weaveMag: 0.5
     speed: 6
-    damage: 5
     hitEffect: flakExplosion
     knockback: 0.8
     lifetime: 80
     splashDamageRadius: 20
     splashDamage: 55
     homingPower: 0.2
-    incendChance: 1
+    incendChance: 10
     incendSpread: 10
-    incendAmount: 0.5
+    incendAmount: 4
     backColor: ff9e42
     frontColor: ffbc7d
   }
